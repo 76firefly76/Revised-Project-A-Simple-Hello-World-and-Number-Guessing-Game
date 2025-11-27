@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Python Tutorial for Beginners</title>
+  <style>
+    body { font-family: sans-serif; }
+    h1, h2 { color: #333; }
+    .code-example { background-color: #f5f5f5; padding: 10px; margin-bottom: 10px; }
+    .code-output { background-color: #e9e9e9; padding: 10px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+
+  <h1>Python Tutorial for Beginners</h1>
+
+  <h2>Step 1: Setting Up Your Environment</h2>
+
+  <p>We’ll start by installing Python and a code editor (like VS Code or Thonny).</p>
+
+  <div class="code-example">
+    <h3>Installing Python</h3>
+    <p>Download and install Python from <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a>. Make sure to check the box to add Python to your PATH.</p>
+  </div>
+
+  <div class="code-example">
+    <h3>Installing a Code Editor</h3>
+    <p>Download and install a code editor like <a href="https://code.visualstudio.com/" target="_blank">VS Code</a> or <a href="https://thonny.org/" target="_blank">Thonny</a>.</p>
+  </div>
+
+  <h2>Step 2: Running the "Hello, World!" Script</h2>
+
+  <div class="code-example">
+    <h3>Creating the Script</h3>
+    <p>Create a new file called <code>hello.py</code>.</p>
+  </div>
+
+  <div class="code-example">
+    <h3>Writing the Code</h3>
+    <p>Open <code>hello.py</code> in your code editor and paste the following code:</p>
+    <pre><code>print("Hello, World!")</code></pre>
+  </div>
+
+  <div class="code-example">
+    <h3>Running the Script</h3>
+    <p>Open your command prompt (Windows) or terminal (macOS/Linux).</p>
+    <p>Navigate to the directory where you saved <code>hello.py</code>.</p>
+    <p>Type <code>python hello.py</code> and press Enter.</p>
+    <p>You should see "Hello, World!" printed on the screen.</p>
+  </div>
+
+  <div class="code-output">
+    <h3>Expected Output</h3>
+    <pre><code>Hello, World!</code></pre>
+  </div>
+
+  <h2>Step 3: A Simple Number Guessing Game</h2>
+
+  <div class="code-example">
+    <h3>Creating the Script</h3>
+    <p>Create a new file called <code>guess_number.py</code>.</p>
+  </div>
+
+  <div class="code-example">
+    <h3>Writing the Code</h3>
+    <p>Open <code>guess_number.py</code> in your code editor and paste the following code:</p>
+    <pre><code>import random
+
+    secret_number = random.randint(1, 10)
+    guess = int(input("Guess a number between 1 and 10: "))
+
+    if guess == secret_number:
+        print("You guessed it!")
+    else:
+        print(f"The number was {secret_number}")</code></pre>
+  </div>
+
+  <div class="code-example">
+    <h3>Running the Script</h3>
+    <p>Open your command prompt (Windows) or terminal (macOS/Linux).</p>
+    <p>Navigate to the directory where you saved <code>guess_number.py</code>.</p>
+    <p>Type <code>python guess_number.py</code> and press Enter.</p>
+    <p>You should see a message asking you to guess a number between 1 and 10.</p>
+  </div>
+
+</body>
+</html>
